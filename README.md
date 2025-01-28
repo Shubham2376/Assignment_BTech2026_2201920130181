@@ -13,3 +13,5 @@ Also, you have to create another method to_string() which returns the string con
 HackerRank
 <h4>Approach and solution explanation: </h4>
 first of all i create a private data members because it's a good practice to make a private data members then to access that data memebers i make public method getter and setter and as in question demand that you have to create another method to_string() which returns the string consisting of the above elements, separated by a comma(,). You can refer to stringstream for this . so for that i make a to_string() method and append all the private data member variable separate by comma in to stringstream object ss that we make and lastly we convert that accumulated stream into string by str() method of stringstream object and then return string from to_string() method that we make<br>
+GLBITM ASSIGNMENT (2201920130181)
+26-01-2025 problem-1 
