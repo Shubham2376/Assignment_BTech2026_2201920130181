@@ -45,7 +45,7 @@ long long CalculateVolume() - Return the volume of the box
 <br>
 <h4>Coding platform used : </h4> 
 HackerRank
-<h4>Approach and solution explanation: </h4><br>
+<h4>Approach and solution explanation: </h4>
 I created a Box class with private data members for length, breadth, and height, using a default, parameterized, and copy constructor. Getter methods provide access to these dimensions. The CalculateVolume() method calculates the volume, and I overloaded the "<" operator to compare Box objects based on length, breadth, and height. Additionally, I overloaded the "<<" operator to print the box dimensions. This approach encapsulates data and extends functionality with operator overloading for comparisons and output.<br>
 <br>
 <br>
