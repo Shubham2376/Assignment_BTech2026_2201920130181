@@ -46,6 +46,9 @@ long long CalculateVolume() - Return the volume of the box
 <h4>Coding platform used : </h4> 
 HackerRank
 <h4>Approach and solution explanation: </h4><br>
+I created a Box class with private data members for length, breadth, and height, using a default, parameterized, and copy constructor. Getter methods provide access to these dimensions. The CalculateVolume() method calculates the volume, and I overloaded the "<" operator to compare Box objects based on length, breadth, and height. Additionally, I overloaded the "<<" operator to print the box dimensions. This approach encapsulates data and extends functionality with operator overloading for comparisons and output.<br>
+<br>
+<br>
 <h3>problem-4</h3> <br>
 <h4>Problem Statement :</h4>
 One of the important topics of Object Oriented Programming is Inheritance. Inheritance allows us to define a class in terms of another class, which allows us in the reusability of the code.Check out the code below:
