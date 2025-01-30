@@ -45,7 +45,7 @@ long long CalculateVolume() - Return the volume of the box
 <br>
 <h4>Coding platform used : </h4> 
 HackerRank
-<h4>Approach and solution explanation: </h4>
+<h4>Approach and solution explanation: </h4><br>
 <h3>problem-4</h3> <br>
 <h4>Problem Statement :</h4>
 One of the important topics of Object Oriented Programming is Inheritance. Inheritance allows us to define a class in terms of another class, which allows us in the reusability of the code.Check out the code below:
