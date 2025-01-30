@@ -46,6 +46,28 @@ long long CalculateVolume() - Return the volume of the box
 <h4>Coding platform used : </h4> 
 HackerRank
 <h4>Approach and solution explanation: </h4>
-The Box class encapsulates length, breadth, and height as private attributes, ensuring controlled access through getters. It includes a default constructor (initializing dimensions to 0), a parameterized constructor, and a copy constructor. A CalculateVolume() method computes the box's volume using long long for large values. The "<" operator is overloaded for hierarchical comparison (length first, then breadth, then height), ensuring proper ordering. The "<<" operator is also overloaded for streamlined output. The main function demonstrates object creation, method usage, and operator functionality, ensuring a well-structured and efficient implementation.<br>
+<h3>problem-4</h3> <br>
+<h4>Problem Statement :</h4>
+One of the important topics of Object Oriented Programming is Inheritance. Inheritance allows us to define a class in terms of another class, which allows us in the reusability of the code.Check out the code below:
+<br>
+class Triangle{<br>
+    public:<br>
+        void triangle(){<br>
+            cout<<"I am a triangle\n";<br>
+        }<br>
+};<br>
+The class Triangle has a function called triangle(). Now we create a class derived from the base class Triangle called Isosceles.<br>
+class Isosceles : public Triangle{<br>
+    public:<br>
+        void isosceles(){<br>
+            cout<<"I am an isosceles triangle\n";<br>
+        }<br>
+};<br>
+Now we can create a derived class object and use it to access the functions of the base class.
+<br>
+<h4>Coding platform used : </h4> 
+HackerRank
+<h4>Approach and solution explanation: </h4>
+To solve this problem, we use inheritance where the Triangle class is the base class with a triangle() method. The Isosceles class, derived from Triangle, adds its own methods: isosceles() to print "I am an isosceles triangle" and description() to print details about isosceles triangles. By using public inheritance, the Isosceles class inherits the triangle() method from Triangle. In the main() function, we create an Isosceles object, call isosceles(), description(), and triangle() to print the respective messages. This demonstrates code reuse and extension using inheritance.<br>
 <br>
 <br>
