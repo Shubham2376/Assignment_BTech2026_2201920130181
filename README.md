@@ -74,3 +74,23 @@ HackerRank
 To solve this problem, we use inheritance where the Triangle class is the base class with a triangle() method. The Isosceles class, derived from Triangle, adds its own methods: isosceles() to print "I am an isosceles triangle" and description() to print details about isosceles triangles. By using public inheritance, the Isosceles class inherits the triangle() method from Triangle. In the main() function, we create an Isosceles object, call isosceles(), description(), and triangle() to print the respective messages. This demonstrates code reuse and extension using inheritance.<br>
 <br>
 <br>
+<h3>problem-5</h3> <br>
+<h4>Problem Statement :</h4>
+In this challenge, you are required to compute the area of a rectangle using classes.
+<br>
+Create two classes:
+<br>
+Rectangle
+<br>
+The Rectangle class should have two data fields-width and height of int types. The class should have display() method, to print the width and height of the rectangle separated by space.
+<br>
+RectangleArea
+<br>
+The RectangleArea class is derived from Rectangle class, i.e., it is the sub-class of Rectangle class. The class should have read_input() method, to read the values of width and height of the rectangle. The RectangleArea class should also overload the display() method to print the area  of the rectangle.
+<br>
+<h4>Coding platform used : </h4> 
+HackerRank
+<h4>Approach and solution explanation: </h4>
+We create two classes to model the rectangle and its area. The base class, Rectangle, contains the attributes width and height and a method display() to print these dimensions. The derived class, RectangleArea, inherits from Rectangle and adds a method read_input() to capture user input for the dimensions. It also overrides the display() method to print the area of the rectangle, calculated as the product of width and height. This design leverages inheritance for code reuse and method overriding for customized behavior, illustrating the use of object-oriented programming principles.<br>
+<br>
+<br>
