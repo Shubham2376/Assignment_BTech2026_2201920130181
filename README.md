@@ -102,13 +102,13 @@ int a=2, b=1, c;<br>
 c = b + a;<br>
 The result of variable c will be 3.
 Similarly, classes can also perform operations using operator overloading. Operators are overloaded by means of operator functions, which are regular functions with special names. Their name begins with the operator keyword followed by the operator sign that is overloaded. The syntax is:
-
+<br>
 type operator sign (parameters) { /*... body ...*/ }
 You are given a main() function which takes a set of inputs to create two matrices and prints the result of their addition. You need to write the class Matrix which has a member a of type vector<vector<int> >. You also need to write a member function to overload the operator +. The function's job will be to add two objects of Matrix type and return the resultant Matrix.
 <br>
 <h4>Coding platform used : </h4> 
 HackerRank
 <h4>Approach and solution explanation: </h4>
-first of all i create a private data members because it's a good practice to make a private data members then to access that data memebers i make public method getter and setter and as in question demand that you have to create another method to_string() which returns the string consisting of the above elements, separated by a comma(,). You can refer to stringstream for this . so for that i make a to_string() method and append all the private data member variable separate by comma in to stringstream object ss that we make and lastly we convert that accumulated stream into string by str() method of stringstream object and then return string from to_string() method that we make<br>
+The approach used in this solution involves defining a Matrix class with a vector<vector<int>> to store the matrix elements. Operator overloading is utilized to implement the + operator, which adds two matrices element-wise and returns the result. The main function reads the number of test cases, followed by the dimensions of the matrices. It then initializes two matrices, takes their input, and computes their sum using the overloaded + operator. Finally, the resulting matrix is printed row-wise. This approach ensures modularity, reusability, and clean handling of matrix addition in an object-oriented manner.<br>
 <br>
 <br>
