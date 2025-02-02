@@ -112,3 +112,32 @@ HackerRank
 The approach used in this solution involves defining a Matrix class with a vector<vector<int>> to store the matrix elements. Operator overloading is utilized to implement the + operator, which adds two matrices element-wise and returns the result. The main function reads the number of test cases, followed by the dimensions of the matrices. It then initializes two matrices, takes their input, and computes their sum using the overloaded + operator. Finally, the resulting matrix is printed row-wise. This approach ensures modularity, reusability, and clean handling of matrix addition in an object-oriented manner.<br>
 <br>
 <br>
+<h3>problem-7</h3> <br>
+<h4>Problem Statement :</h4>
+A student signed up for  workshops and wants to attend the maximum number of workshops where no two workshops overlap. You must do the following:
+<br>
+Implement  structures:
+<br>
+struct Workshop having the following members:
+<br>
+The workshop's start time.
+The workshop's duration.
+The workshop's end time.
+struct Available_Workshops having the following members:
+<br>
+An integer,  (the number of workshops the student signed up for).<br>
+An array of type Workshop array having size .<br>
+Implement  functions:<br>
+<br>
+Available_Workshops* initialize (int start_time[], int duration[], int n)<br>
+Creates an Available_Workshops object and initializes its elements using the elements in the  and  parameters (both are of size ). Here,  and  are the respective start time and duration for the  workshop. This function must return a pointer to an Available_Workshops object.
+<br>
+int CalculateMaxWorkshops(Available_Workshops* ptr)<br>
+Returns the maximum number of workshops the student can attend—without overlap. The next workshop cannot be attended until the previous workshop ends.
+<br>
+<h4>Coding platform used : </h4> 
+HackerRank
+<h4>Approach and solution explanation: </h4>
+The approach used to solve the problem follows a greedy algorithm to maximize the number of non-overlapping workshops. First, we define a Workshop structure to store the start time, duration, and end time of each workshop. Then, we create an Available_Workshops structure to manage an array of Workshop objects. The initialize function dynamically allocates memory for workshops and populates them based on the input. To determine the maximum number of non-overlapping workshops, the CalculateMaxWorkshops function sorts the workshops by their end times and iterates through them, selecting only those that do not overlap with previously selected workshops. This ensures an optimal selection of workshops using a greedy scheduling approach, leading to an efficient solution.<br>
+<br>
+<br>
