@@ -141,3 +141,13 @@ HackerRank
 The approach used to solve the problem follows a greedy algorithm to maximize the number of non-overlapping workshops. First, we define a Workshop structure to store the start time, duration, and end time of each workshop. Then, we create an Available_Workshops structure to manage an array of Workshop objects. The initialize function dynamically allocates memory for workshops and populates them based on the input. To determine the maximum number of non-overlapping workshops, the CalculateMaxWorkshops function sorts the workshops by their end times and iterates through them, selecting only those that do not overlap with previously selected workshops. This ensures an optimal selection of workshops using a greedy scheduling approach, leading to an efficient solution.<br>
 <br>
 <br>
+<h3>problem-8</h3> <br>
+<h4>Problem Statement :</h4>
+Write a C++ program to implement a class called Student that has private member variables for name, class, roll number, and marks. Include member functions to calculate the grade based on the marks and display the student's information.
+<br>
+<h4>Coding platform used : </h4> 
+w3resource
+<h4>Approach and solution explanation: </h4>
+my approach follows an object-oriented programming (OOP) paradigm by defining a Student class with private member variables to store student details and public methods for functionality. The constructor initializes the student's attributes, and the calculateGrade method determines the grade based on marks using conditional statements. The displayInformation method neatly outputs student details. In the main function, user input is taken for name, class, roll number, and marks, which are then used to instantiate a Student object. Finally, the student's details and computed grade are displayed, making the solution structured, reusable, and user-interactive.<br>
+<br>
+<br>
