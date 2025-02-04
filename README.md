@@ -151,3 +151,13 @@ w3resource
 my approach follows an object-oriented programming (OOP) paradigm by defining a Student class with private member variables to store student details and public methods for functionality. The constructor initializes the student's attributes, and the calculateGrade method determines the grade based on marks using conditional statements. The displayInformation method neatly outputs student details. In the main function, user input is taken for name, class, roll number, and marks, which are then used to instantiate a Student object. Finally, the student's details and computed grade are displayed, making the solution structured, reusable, and user-interactive.<br>
 <br>
 <br>
+<h3>problem-9</h3> <br>
+<h4>Problem Statement :</h4>
+Write a C++ program to implement a class called Date that has private member variables for day, month, and year. Include member functions to set and get these variables, as well as to validate if the date is valid.
+<br>
+<h4>Coding platform used : </h4> 
+w3resource
+<h4>Approach and solution explanation: </h4>
+The approach to solving this problem involves designing a Date class with private members for day, month, and year, along with getter and setter functions to manipulate these values. A constructor initializes the date values, and a validation function (isValidDate()) checks whether the given date is correct based on month-day constraints, including leap year considerations for February. In the main() function, the user inputs a date, which is then validated and displayed accordingly. The solution systematically ensures correctness by verifying month validity, day limits per month, and special leap year rules.<br>
+<br>
+<br>
