@@ -161,3 +161,13 @@ w3resource
 The approach to solving this problem involves designing a Date class with private members for day, month, and year, along with getter and setter functions to manipulate these values. A constructor initializes the date values, and a validation function (isValidDate()) checks whether the given date is correct based on month-day constraints, including leap year considerations for February. In the main() function, the user inputs a date, which is then validated and displayed accordingly. The solution systematically ensures correctness by verifying month validity, day limits per month, and special leap year rules.<br>
 <br>
 <br>
+<h3>problem-10</h3> <br>
+<h4>Problem Statement :</h4>
+Write a C++ program to implement a class called Shape with virtual member functions for calculating area and perimeter. Derive classes such as Circle, Rectangle, and Triangle from the Shape class and override virtual functions accordingly.
+<br>
+<h4>Coding platform used : </h4> 
+w3resource
+<h4>Approach and solution explanation: </h4>
+The program follows an object-oriented approach using a base class Shape with pure virtual functions for area and perimeter calculations. Derived classes (Circle, Rectangle, and Triangle) implement these functions using appropriate mathematical formulas, including Heron's formula for triangles. The main() function instantiates these classes and displays their computed values, ensuring modularity and extensibility.<br>
+<br>
+<br>
