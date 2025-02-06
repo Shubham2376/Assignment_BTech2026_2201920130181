@@ -171,3 +171,13 @@ w3resource
 The program follows an object-oriented approach using a base class Shape with pure virtual functions for area and perimeter calculations. Derived classes (Circle, Rectangle, and Triangle) implement these functions using appropriate mathematical formulas, including Heron's formula for triangles. The main() function instantiates these classes and displays their computed values, ensuring modularity and extensibility.<br>
 <br>
 <br>
+<h3>problem-11</h3> <br>
+<h4>Problem Statement :</h4>
+Write a C++ program to implement a class called Student that has private member variables for name, class, roll number, and marks. Include member functions to calculate the grade based on the marks and display the student's information.
+<br>
+<h4>Coding platform used : </h4> 
+w3resource
+<h4>Approach and solution explanation: </h4>
+I solved this problem by defining a Student class with private attributes for name, class, roll number, and marks. A constructor initializes these attributes, and a calculateGrade method determines the grade based on marks. The displayInformation method outputs all student details. In main(), user input is collected for a student's details, an object is created, and the information is displayed. This ensures encapsulation, structured data handling, and clear output formatting.<br>
+<br>
+<br>
